@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SOHAM Portfolio</title>
+  <link rel="stylesheet" href="public/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <button id="theme-toggle" aria-label="Toggle light/dark mode">🌙</button>
+  <button id="hamburger" aria-label="Open navigation menu">☰</button>
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">SOHAM</span>
+        <span class="logo-bracket">]</span>
+      </div>
+      <nav>
+        <ul>
+          <li class="active"><span class="icon">🏠</span> Home</li>
+          <li><a href="#about" class="nav-link"><span class="icon">👤</span> About</a></li>
+          <li><a href="#services" class="nav-link"><span class="icon">🛠️</span> Services</a></li>
+          <li><a href="#projects" class="nav-link"><span class="icon">💼</span> Projects</a></li>
+          <li><a href="#contact" class="nav-link"><span class="icon">💬</span> Contact</a></li>
+        </ul>
+      </nav>
+      
+    </aside>
+    <main class="main-content">
+      <section class="hero" id="hero">
+        <div class="hero-text">
+          <h2>Hello, my name is <span class="name">SOHAM</span></h2>
+          <h1>I'm a <span class="highlight">Fullstack developer</span></h1>
+          <p>
+            I'm 16 years old.<br>
+            My expertise is to create an website design, App Development, and many more...
+          </p>
+          <a href="#about" class="btn">More About Me</a>
+        </div>
+        <div class="hero-image">
+          <div class="image-frame">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFThev_rNYvpQ/profile-displayphoto-shrink_800_800/B4DZbs_8vTIEAc-/0/1747732910006?e=1758153600&v=beta&t=uujnW5-r5mR5ufPa0sH3IpjT0lkB6BXUUVk6xWqhpV8" alt="Profile" />
+            <div class="corner corner-tl"></div>
+            <div class="corner corner-tr"></div>
+            <div class="corner corner-bl"></div>
+            <div class="corner corner-br"></div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hi! I'm <b>SOHAM</b>, a passionate web designer and Fullstack developer with a love for creating beautiful, functional, and user-friendly digital experiences. I love solving complex problems and creating elegant solutions that make a difference.
+
+              , and I enjoy working on challenging projects that allow me to grow and learn new skills.
+            </p>
+            <p>
+              When I'm not coding or designing, you can find me exploring new technologies, reading, or traveling.
+            </p>
+          </div>
+          <div class="about-photo">
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-cards">
+          <div class="skills-card">
+            <h3>Frontend</h3>
+            <div class="skills-tags">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Sass</span>
+            </div>
+          </div>
+          <div class="skills-card">
+            <h3>Backend</h3>
+            <div class="skills-tags">
+              <span class="skill-tag">Ruby on Rails</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Redis</span>
+            </div>
+          </div>
+          <div class="skills-card">
+            <h3>Tools & Others</h3>
+            <div class="skills-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Github</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <h2>Services</h2>
+        <div class="service-list">
+          <div class="service-item">
+            <span class="icon">💻</span>
+            <h3>Web Development</h3>
+            <p>Modern and responsive websites.</p>
+          </div>
+          <div class="service-item">
+            <span class="icon">🎨</span>
+            <h3>Graphic Design</h3>
+            <p>Creative and unique graphic solutions.</p>
+          </div>
+          <div class="service-item">
+            <span class="icon">📱</span>
+            <h3>App Design</h3>
+            <p>Beautiful and user-friendly mobile apps.</p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <div class="project-card">
+            <img src="https://via.placeholder.com/300x180" alt="Project 1" />
+            <span class="project-icon">📱</span>
+            <h3>App</h3>
+            <p>A productivity app that helps you organize your daily tasks efficiently and stay on top of your goals.</p>
+          </div>
+          <div class="project-card">
+            <img src="https://via.placeholder.com/300x180" alt="Project 2" />
+            <span class="project-icon">🚀</span>
+            <h3>Game</h3>
+            <p>A simple ballrefeltor game.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  <!-- Footer section -->
+  <footer>
+    <div class="footer-container">
+      <div class="socialIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://github.com/sohamchavan07"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sohamchavan07/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="HOME.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="Aboutus.html">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerBottom">
+      <p>&copy;2025, Soham chavan</p>
+    </div>
+  </footer>
+  <script src="public/script.js"></script>
+</body>
+</html>
